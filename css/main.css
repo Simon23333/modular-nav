@@ -29,50 +29,33 @@ h1 {
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
-  text-align: center;
-}
-
 a {
   text-decoration: none;
   color: #0074d9;
+  list-style-type: none;
 }
 
 a:hover {
   color: #fff;
-}
-
-li:hover {
   background-color: #0074d9;
 }
 
-li:hover a {
-  color: #fff;
+li {
+  display: inline-block;
+}
+
+.logo {
+  text-align: center;
 }
 
 @media only screen and (min-width: 38em) {
 
-  header {
-    display: inline-block;
-    width: 100%;
-  }
+  .logo {
+     text-align: left;
+   }
 
-  h1 {
-    text-align: left;
-    display: inline;
-  }
+   .nav {
+     text-align: right;
+   }
 
-  .title {
-    display: inline;
-  }
-
-  div {
-    display: inline;
-  }
-
-  nav {
-    display: inline;
-  }
-
-}
+ }
