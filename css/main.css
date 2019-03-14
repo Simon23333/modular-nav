@@ -1,11 +1,7 @@
 @-moz-viewport { width: device-with; scale: 1; }
-
 @-ms-viewport { width: device-with; scale: 1; }
-
 @-o-viewport { width: device-with; scale: 1; }
-
 @-webkit-viewport { width: device-with; scale: 1; }
-
 @viewport { width: device-with; scale: 1; }
 
 html {
@@ -25,7 +21,58 @@ body {
   margin: 0;
 }
 
-nav li {
-  display: inline-block;
+header {
+  background-color: #e2e2e2;
+}
+
+h1 {
   text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+a:hover {
+  color: #fff;
+}
+
+li:hover {
+  background-color: #0074d9;
+}
+
+li:hover a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  header {
+    display: inline-block;
+    width: 100%;
+  }
+
+  h1 {
+    text-align: left;
+    display: inline;
+  }
+
+  .title {
+    display: inline;
+  }
+
+  div {
+    display: inline;
+  }
+
+  nav {
+    display: inline;
+  }
+
 }
